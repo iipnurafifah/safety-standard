@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safety Standards - CSAE Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .shield-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
+        }
+
+        .shield-icon svg {
+            width: 40px;
+            height: 40px;
+            fill: white;
+        }
+
+        h1 {
+            color: #1a1a2e;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .content-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-left: 4px solid #e94560;
+        }
+
+        .section-title {
+            color: #e94560;
+            font-size: 12px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .policy-text {
+            color: #333;
+            line-height: 1.8;
+            font-size: 15px;
+        }
+
+        .url-box {
+            background: #1a1a2e;
+            color: #00d9ff;
+            padding: 15px 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            word-break: break-all;
+            margin-top: 15px;
+            border: 2px solid #00d9ff;
+        }
+
+        .copy-btn {
+            background: linear-gradient(135deg, #e94560, #ff6b6b);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .copy-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(233, 69, 96, 0.4);
+        }
+
+        .copy-btn:active {
+            transform: translateY(0);
+        }
+
+        .check-list {
+            list-style: none;
+            margin-top: 15px;
+        }
+
+        .check-list li {
+            padding: 8px 0;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .check-list li::before {
+            content: "✓";
+            color: #00d9ff;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #888;
+            font-size: 12px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #00d9ff;
+            color: #1a1a2e;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 11px;
+            font-weight: 700;
+            margin-top: 10px;
+        }
+    </style>
+<base target="_blank">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="shield-icon">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z"/>
+                </svg>
+            </div>
+            <h1>Safety Standards Policy</h1>
+            <p class="subtitle">Google Play Store Compliance - CSAE Standards</p>
+            <span class="badge">EXTERNAL PUBLISHED STANDARDS</span>
+        </div>
+
+        <div class="content-section">
+            <div class="section-title">Policy Statement</div>
+            <p class="policy-text">
+                Our application maintains strict safety standards against Child Sexual Abuse and Exploitation (CSAE). 
+                We are committed to providing a safe environment for all users, particularly minors, and have 
+                implemented comprehensive measures to prevent, detect, and report any content or behavior 
+                related to child sexual abuse and exploitation.
+            </p>
+        </div>
+
+        <div class="content-section">
+            <div class="section-title">Safety Measures</div>
+            <ul class="check-list">
+                <li>Zero-tolerance policy for CSAE content</li>
+                <li>Advanced content moderation systems</li>
+                <li>User reporting mechanisms</li>
+                <li>Cooperation with law enforcement authorities</li>
+                <li>Regular safety audits and updates</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <div class="section-title">External Standards URL</div>
+            <p class="policy-text">
+                This page serves as the externally published safety standards document for our application 
+                as required by Google Play Store policies. The following URL can be submitted to Google Play Console:
+            </p>
+            <div class="url-box" id="policyUrl">
+                https://your-domain.com/safety-standards.html
+            </div>
+            <button class="copy-btn" onclick="copyUrl()">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                    <path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H8V7h11v14z"/>
+                </svg>
+                Copy URL for Play Console
+            </button>
+        </div>
+
+        <div class="content-section">
+            <div class="section-title">Reporting & Contact</div>
+            <p class="policy-text">
+                If you encounter any content or behavior that violates our CSAE safety standards, 
+                please report immediately through our in-app reporting feature or contact our 
+                safety team at: <strong>safety@your-domain.com</strong>
+            </p>
+        </div>
+
+        <div class="footer">
+            <p>Last Updated: March 2026 | Version 1.0</p>
+            <p>This document is publicly accessible and meets Google Play Store requirements for CSAE safety standards disclosure.</p>
+        </div>
+    </div>
+
+    <script>
+        function copyUrl() {
+            const urlText = document.getElementById('policyUrl').textContent.trim();
+            navigator.clipboard.writeText(urlText).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                const originalText = btn.innerHTML;
+                btn.innerHTML = `
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="white">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                    URL Copied!
+                `;
+                btn.style.background = 'linear-gradient(135deg, #00d9ff, #00b4d8)';
+                setTimeout(() => {
+                    btn.innerHTML = originalText;
+                    btn.style.background = 'linear-gradient(135deg, #e94560, #ff6b6b)';
+                }, 2000);
+            });
+        }
+    </script>
+</body>
+</html>
